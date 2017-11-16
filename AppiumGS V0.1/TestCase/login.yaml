@@ -1,0 +1,31 @@
+-
+ test_action: click
+ test_control_type: xpath
+ test_control_id: //android.widget.LinearLayout[@index='0']//android.widget.LinearLayout[@index='3']//android.widget.TextView[@index='1']
+-
+ test_action: click
+ test_control_type: xpath
+ test_control_id: //android.widget.LinearLayout[@index='0']//android.widget.RelativeLayout[@index='0']//android.widget.LinearLayout[@index='0']//android.widget.LinearLayout[@index='0']//android.widget.TextView[@index='0']
+-
+#输入用户名
+ test_action: write
+ test_control_type: xpath
+ test_control_id: //android.widget.RelativeLayout[@index='0']//android.widget.RelativeLayout[@index='2']//android.widget.EditText[@index='0']
+ test_value: account
+-
+#输入密码
+ test_action: write
+ test_control_type: xpath
+ test_control_id: //android.widget.RelativeLayout[@index='0']//android.widget.RelativeLayout[@index='3']//android.widget.EditText[@index='0']
+ test_value: password
+-
+#点击登录按钮
+ test_action: click
+ test_control_type: xpath
+ test_control_id: //android.widget.RelativeLayout[@index='0']//android.widget.RelativeLayout[@index='4']//android.widget.Button[@index='0']
+-
+#判断结果
+ test_action: assert
+ test_assert_type: control
+ test_control_type: xpath
+ test_control_id: //android.widget.LinearLayout[@index='0']//android.widget.RelativeLayout[@index='0']//android.widget.ImageView[@index='0']
