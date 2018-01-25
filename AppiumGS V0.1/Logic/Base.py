@@ -10,8 +10,8 @@ class Base:
     desired_caps['platformName'] = 'Android'
     desired_caps['platformVersion'] = '6.0.1'
     desired_caps['deviceName'] = 'Galaxy S6'
-    desired_caps['appPackage'] = 'dji.go.v4'
-    desired_caps['appActivity'] = 'dji.pilot.main.activity.DJILauncherActivity'
+    desired_caps['appPackage'] = 'xxx'
+    desired_caps['appActivity'] = 'xxx'
     desired_caps['unicodeKeyboard'] = 'true'
     desired_caps['resetKeyboard'] = 'true'
 
